@@ -1,0 +1,9 @@
+import random
+
+
+dice = random.randint(1,6)
+
+correct = dice==1 or dice==6
+
+print(dice)
+print(correct)
